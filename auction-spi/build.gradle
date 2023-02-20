@@ -1,0 +1,31 @@
+plugins {
+    id "biz.aQute.bnd.builder" version "6.4.0"
+}
+
+group 'com.example'
+version '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compileOnly(project(':auction-api'))
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+}
+
+test {
+    useJUnitPlatform()
+}
+
+jar {
+    bundle {
+        bnd(
+                'Bundle-SymbolicName': 'com.example.osgi.auction',
+                'Import-Package': 'com.example.osgi.auction',
+                'Export-Package': 'com.example.osgi.auction.spi'
+        )
+    }
+}
+

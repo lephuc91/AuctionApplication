@@ -1,0 +1,33 @@
+plugins {
+    id "biz.aQute.bnd.builder" version "6.4.0"
+}
+
+group 'com.example'
+version '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+    compileOnly group: 'org.apache.felix', name: 'org.apache.felix.framework', version: '7.0.5'
+    compileOnly(project(':auction-api'))
+    compileOnly(project(':auction-spi'))
+
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+}
+
+test {
+    useJUnitPlatform()
+}
+
+jar {
+    bundle {
+        bnd(    'Bundle-SymbolicName': 'com.example.osgi.auction.auditor.sealed',
+                'Import-Package': 'com.example.osgi.auction, com.example.osgi.auction.spi, org.osgi.framework',
+                'Bundle-Activator': 'com.example.osgi.auction.auctioneer.sealed.SealedFirstPriceAuctioneerActivator'
+        )
+    }
+}

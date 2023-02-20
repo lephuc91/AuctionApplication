@@ -1,0 +1,8 @@
+rootProject.name = 'AuctionApplication'
+include 'auction-api'
+include 'auction-seller-simple'
+include 'auction-auctioneer-sealed'
+include 'auction-auditor-sealed'
+include 'auction-manager'
+include 'auction-spi'
+
