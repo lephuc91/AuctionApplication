@@ -1,8 +1,8 @@
-package com.example.osgi.auction.seller.simple;
+package com.example.osgi.auction.api.seller.simple;
 
-import com.example.osgi.auction.Auction;
-import com.example.osgi.auction.Participant;
-import com.example.osgi.auction.InvalidOfferException;
+import com.example.osgi.auction.api.Auction;
+import com.example.osgi.auction.api.Participant;
+import com.example.osgi.auction.api.InvalidOfferException;
 
 public class Seller implements Participant, Runnable {
   private final String name;

@@ -1,4 +1,4 @@
-package com.example.osgi.auction.manager;
+package com.example.osgi.auction.api.manager;
 
 import java.util.Collection;
 import java.util.HashMap;
@@ -6,9 +6,9 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 
-import com.example.osgi.auction.Auction;
-import com.example.osgi.auction.InvalidOfferException;
-import com.example.osgi.auction.Participant;
+import com.example.osgi.auction.api.Auction;
+import com.example.osgi.auction.api.InvalidOfferException;
+import com.example.osgi.auction.api.Participant;
 import com.example.osgi.auction.spi.Auctioneer;
 import com.example.osgi.auction.spi.Auditor;
 

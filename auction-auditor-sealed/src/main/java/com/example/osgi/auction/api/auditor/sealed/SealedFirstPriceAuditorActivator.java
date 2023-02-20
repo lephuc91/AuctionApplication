@@ -1,4 +1,4 @@
-package com.example.osgi.auction.auditor.sealed;
+package com.example.osgi.auction.api.auditor.sealed;
 
 import com.example.osgi.auction.spi.Auditor;
 import org.osgi.framework.BundleActivator;

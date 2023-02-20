@@ -1,4 +1,4 @@
-package com.example.osgi.auction.auctioneer.sealed;
+package com.example.osgi.auction.api.auctioneer.sealed;
 
 import com.example.osgi.auction.spi.Auctioneer;
 import org.osgi.framework.BundleActivator;

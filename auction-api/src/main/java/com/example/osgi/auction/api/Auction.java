@@ -1,11 +1,11 @@
-package com.example.osgi.auction;
+package com.example.osgi.auction.api;
 
 public interface Auction {
   String TYPE = "auction-type";
   String DURATION = "auction-duration";
 
   /**
-   * inform the participants that the seller wisher to sell {@param item}
+   * inform the participants that the seller wishes to sell {@param item}
    * @param item
    * @param price
    * @param seller

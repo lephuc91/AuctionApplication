@@ -1,9 +1,9 @@
-package com.example.osgi.auction.auctioneer.sealed;
+package com.example.osgi.auction.api.auctioneer.sealed;
 
 import java.util.Dictionary;
 import java.util.Hashtable;
 
-import com.example.osgi.auction.Auction;
+import com.example.osgi.auction.api.Auction;
 import com.example.osgi.auction.spi.Auctioneer;
 
 public class SealedFirstPriceAuctioneer implements Auctioneer {

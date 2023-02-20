@@ -2,7 +2,7 @@ package com.example.osgi.auction.spi;
 
 import java.util.Dictionary;
 
-import com.example.osgi.auction.Auction;
+import com.example.osgi.auction.api.Auction;
 
 /**
  * Vendors that would like to plug a new auction type into the auction application must

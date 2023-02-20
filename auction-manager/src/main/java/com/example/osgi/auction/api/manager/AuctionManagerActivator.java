@@ -1,9 +1,9 @@
-package com.example.osgi.auction.manager;
+package com.example.osgi.auction.api.manager;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import com.example.osgi.auction.Auction;
+import com.example.osgi.auction.api.Auction;
 import com.example.osgi.auction.spi.Auctioneer;
 import com.example.osgi.auction.spi.Auditor;
 import org.osgi.framework.BundleActivator;

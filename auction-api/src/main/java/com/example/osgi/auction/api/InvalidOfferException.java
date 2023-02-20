@@ -1,4 +1,4 @@
-package com.example.osgi.auction;
+package com.example.osgi.auction.api;
 
 public class InvalidOfferException extends Exception{
   public InvalidOfferException() {

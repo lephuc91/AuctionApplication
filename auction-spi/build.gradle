@@ -23,7 +23,7 @@ jar {
     bundle {
         bnd(
                 'Bundle-SymbolicName': 'com.example.osgi.auction',
-                'Import-Package': 'com.example.osgi.auction',
+                'Import-Package': 'com.example.osgi.auction.api',
                 'Export-Package': 'com.example.osgi.auction.spi'
         )
     }

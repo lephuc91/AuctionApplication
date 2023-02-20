@@ -1,5 +1,8 @@
-package com.example.osgi.auction;
+package com.example.osgi.auction.api;
 
+/**
+ * The buyer and seller
+ */
 public interface Participant {
   String getName();
 

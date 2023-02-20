@@ -26,7 +26,7 @@ test {
 jar {
     bundle {
         bnd(    'Bundle-SymbolicName': 'com.example.osgi.auction.auditor.sealed',
-                'Import-Package': 'com.example.osgi.auction, com.example.osgi.auction.spi, org.osgi.framework',
+                'Import-Package': 'com.example.osgi.auction.api, com.example.osgi.auction.spi, org.osgi.framework',
                 'Bundle-Activator': 'com.example.osgi.auction.auctioneer.sealed.SealedFirstPriceAuctioneerActivator'
         )
     }

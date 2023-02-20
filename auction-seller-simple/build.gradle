@@ -24,7 +24,7 @@ jar {
     bundle {
         bnd(
                 'Bundle-SymbolicName': 'com.example.osgi.auction.seller.simple',
-                'Import-Package': 'com.example.osgi.auction, org.osgi.framework',
+                'Import-Package': 'com.example.osgi.auction.api, org.osgi.framework',
                 'Bundle-Activator': 'com.example.osgi.auction.seller.simple.SellerActivator'
         )
     }

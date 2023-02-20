@@ -1,10 +1,11 @@
 package com.example.osgi.auction.spi;
 
-import com.example.osgi.auction.Participant;
+import com.example.osgi.auction.api.Participant;
 
 public interface Auditor {
   /**
-   * auction’s transaction is completed successfully; for every item that’s sold, the auction system implementation calls back all available auditors with interesting data, such as the
+   * auction’s transaction is completed successfully; for every item that’s sold, the auction system implementation
+   * calls back all available auditors with interesting data, such as the
    * item that was sold, the selling price, the asked price, and all non-accepted bids
    *
    * @param auctioneer
@@ -14,9 +15,8 @@ public interface Auditor {
    * @param acceptedBid
    * @param bids
    */
-  void onAcceptance(Auctioneer auctioneer, Participant participant,
-                    String item, float ask,
-                    float acceptedBid, Float[] bids);
+  void onAcceptance(Auctioneer auctioneer, Participant participant, String item, float ask, float acceptedBid,
+                    Float[] bids);
 
   /**
    * called when a transaction completes unsuccessfully, such as

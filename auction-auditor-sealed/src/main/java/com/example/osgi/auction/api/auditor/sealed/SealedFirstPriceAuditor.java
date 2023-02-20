@@ -1,7 +1,7 @@
-package com.example.osgi.auction.auditor.sealed;
+package com.example.osgi.auction.api.auditor.sealed;
 
-import com.example.osgi.auction.Auction;
-import com.example.osgi.auction.Participant;
+import com.example.osgi.auction.api.Auction;
+import com.example.osgi.auction.api.Participant;
 import com.example.osgi.auction.spi.Auctioneer;
 import com.example.osgi.auction.spi.Auditor;
 

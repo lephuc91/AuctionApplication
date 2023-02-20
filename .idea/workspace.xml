@@ -5,41 +5,55 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="88fe239b-8df2-4675-a386-28f2e4e015ba" name="Changes" comment="init">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/markdown.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auction-api/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auction-api/src/main/java/com/example/osgi/auction/Auction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auction-api/src/main/java/com/example/osgi/auction/InvalidOfferException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auction-api/src/main/java/com/example/osgi/auction/Participant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auction-auctioneer-sealed/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auction-auctioneer-sealed/src/main/java/com/example/osgi/auction/auctioneer/sealed/SealedFirstPriceAuction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auction-auctioneer-sealed/src/main/java/com/example/osgi/auction/auctioneer/sealed/SealedFirstPriceAuctioneer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auction-auctioneer-sealed/src/main/java/com/example/osgi/auction/auctioneer/sealed/SealedFirstPriceAuctioneerActivator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auction-auditor-sealed/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auction-auditor-sealed/src/main/java/com/example/osgi/auction/auditor/sealed/SealedFirstPriceAuditor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auction-auditor-sealed/src/main/java/com/example/osgi/auction/auditor/sealed/SealedFirstPriceAuditorActivator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auction-manager/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auction-manager/src/main/java/com/example/osgi/auction/manager/AuctionManagerActivator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auction-manager/src/main/java/com/example/osgi/auction/manager/AuctionWrapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auction-seller-simple/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auction-seller-simple/src/main/java/com/example/osgi/auction/seller/simple/Seller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auction-seller-simple/src/main/java/com/example/osgi/auction/seller/simple/SellerActivator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auction-spi/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auction-spi/src/main/java/com/example/osgi/auction/spi/Auctioneer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auction-spi/src/main/java/com/example/osgi/auction/spi/Auditor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bundles/jansi-1.18.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bundles/jline-3.13.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bundles/org.apache.felix.gogo.command-1.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bundles/org.apache.felix.gogo.jline-1.1.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bundles/org.apache.felix.gogo.runtime-1.1.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/felix-cache/bundle0/bundle.id" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/felix-cache/bundle0/last.java.version" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/felix-cache/bundle1/bundle.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/felix-cache/bundle1/version0.0/bundle.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/felix-cache/bundle1/version0.0/revision.location" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/felix-cache/bundle2/bundle.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/felix-cache/bundle2/version0.0/bundle.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/felix-cache/bundle2/version0.0/revision.location" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/felix-cache/bundle3/bundle.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/felix-cache/bundle3/version0.0/bundle.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/felix-cache/bundle3/version0.0/revision.location" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/felix-cache/bundle4/bundle.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/felix-cache/bundle4/version0.0/bundle.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/felix-cache/bundle4/version0.0/revision.location" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/felix-cache/bundle5/bundle.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/felix-cache/bundle5/version0.0/bundle.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/felix-cache/bundle5/version0.0/revision.location" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/felix-cache/bundle6/bundle.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/felix-cache/bundle6/version0.0/bundle.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/felix-cache/bundle6/version0.0/revision.location" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/felix-cache/cache.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auction-api/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/auction-api/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auction-api/src/main/java/com/example/osgi/auction/Auction.java" beforeDir="false" afterPath="$PROJECT_DIR$/auction-api/src/main/java/com/example/osgi/auction/api/Auction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auction-api/src/main/java/com/example/osgi/auction/InvalidOfferException.java" beforeDir="false" afterPath="$PROJECT_DIR$/auction-api/src/main/java/com/example/osgi/auction/api/InvalidOfferException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auction-api/src/main/java/com/example/osgi/auction/Participant.java" beforeDir="false" afterPath="$PROJECT_DIR$/auction-api/src/main/java/com/example/osgi/auction/api/Participant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auction-auctioneer-sealed/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/auction-auctioneer-sealed/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auction-auctioneer-sealed/src/main/java/com/example/osgi/auction/auctioneer/sealed/SealedFirstPriceAuction.java" beforeDir="false" afterPath="$PROJECT_DIR$/auction-auctioneer-sealed/src/main/java/com/example/osgi/auction/api/auctioneer/sealed/SealedFirstPriceAuction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auction-auctioneer-sealed/src/main/java/com/example/osgi/auction/auctioneer/sealed/SealedFirstPriceAuctioneer.java" beforeDir="false" afterPath="$PROJECT_DIR$/auction-auctioneer-sealed/src/main/java/com/example/osgi/auction/api/auctioneer/sealed/SealedFirstPriceAuctioneer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auction-auctioneer-sealed/src/main/java/com/example/osgi/auction/auctioneer/sealed/SealedFirstPriceAuctioneerActivator.java" beforeDir="false" afterPath="$PROJECT_DIR$/auction-auctioneer-sealed/src/main/java/com/example/osgi/auction/api/auctioneer/sealed/SealedFirstPriceAuctioneerActivator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auction-auditor-sealed/src/main/java/com/example/osgi/auction/auditor/sealed/SealedFirstPriceAuditor.java" beforeDir="false" afterPath="$PROJECT_DIR$/auction-auditor-sealed/src/main/java/com/example/osgi/auction/api/auditor/sealed/SealedFirstPriceAuditor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auction-auditor-sealed/src/main/java/com/example/osgi/auction/auditor/sealed/SealedFirstPriceAuditorActivator.java" beforeDir="false" afterPath="$PROJECT_DIR$/auction-auditor-sealed/src/main/java/com/example/osgi/auction/api/auditor/sealed/SealedFirstPriceAuditorActivator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auction-manager/src/main/java/com/example/osgi/auction/manager/AuctionManagerActivator.java" beforeDir="false" afterPath="$PROJECT_DIR$/auction-manager/src/main/java/com/example/osgi/auction/api/manager/AuctionManagerActivator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auction-manager/src/main/java/com/example/osgi/auction/manager/AuctionWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/auction-manager/src/main/java/com/example/osgi/auction/api/manager/AuctionWrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auction-seller-simple/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/auction-seller-simple/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auction-seller-simple/src/main/java/com/example/osgi/auction/seller/simple/Seller.java" beforeDir="false" afterPath="$PROJECT_DIR$/auction-seller-simple/src/main/java/com/example/osgi/auction/api/seller/simple/Seller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auction-seller-simple/src/main/java/com/example/osgi/auction/seller/simple/SellerActivator.java" beforeDir="false" afterPath="$PROJECT_DIR$/auction-seller-simple/src/main/java/com/example/osgi/auction/api/seller/simple/SellerActivator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auction-spi/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/auction-spi/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auction-spi/src/main/java/com/example/osgi/auction/spi/Auctioneer.java" beforeDir="false" afterPath="$PROJECT_DIR$/auction-spi/src/main/java/com/example/osgi/auction/spi/Auctioneer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auction-spi/src/main/java/com/example/osgi/auction/spi/Auditor.java" beforeDir="false" afterPath="$PROJECT_DIR$/auction-spi/src/main/java/com/example/osgi/auction/spi/Auditor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Launcher.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +77,9 @@
         <task path="$PROJECT_DIR$">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/auction-api">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
@@ -78,6 +95,24 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="AuctionApplication" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="AuctionApplication" type="f1a62948:ProjectNode" />
+                <item name="auction-api" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="AuctionApplication" type="f1a62948:ProjectNode" />
+                <item name="auction-api" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="AuctionApplication" type="f1a62948:ProjectNode" />
+                <item name="auction-api" type="2d1252cf:ModuleNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="build" type="c8890929:TasksNode$1" />
               </path>
@@ -97,6 +132,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -116,6 +156,7 @@
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "11",
+    "last_opened_file_path": "C:/Users/Phuc Le/Desktop/Heute/AuctionApplication/bundles",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -127,8 +168,24 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.example.osgi.auction.manager" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Phuc Le\Desktop\Heute\AuctionApplication\bundles" />
+    </key>
   </component>
-  <component name="RunManager" selected="Gradle.AuctionApplication [build]">
+  <component name="RunManager" selected="Application.Launcher">
+    <configuration name="Launcher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.Launcher" />
+      <module name="AuctionApplication.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AuctionApplication [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -171,10 +228,10 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="AuctionApplication:auction [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="AuctionApplication:auction-api [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/auction" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/auction-api" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" />
         <option name="taskDescriptions">
@@ -215,10 +272,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.AuctionApplication:auction-api [build]" />
+        <item itemvalue="Application.Launcher" />
         <item itemvalue="Gradle.AuctionApplication [build]" />
         <item itemvalue="Gradle.AuctionApplication [clean]" />
         <item itemvalue="Gradle.AuctionApplication:auction-manager [build]" />
-        <item itemvalue="Gradle.AuctionApplication:auction [build]" />
       </list>
     </recent_temporary>
   </component>
@@ -231,6 +289,7 @@
       <option name="presentableId" value="Default" />
       <updated>1676887882153</updated>
       <workItem from="1676887883451" duration="16296000" />
+      <workItem from="1676923013945" duration="3527000" />
     </task>
     <servers />
   </component>
